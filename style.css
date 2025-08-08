@@ -129,13 +129,101 @@ body {
     font-size: 2.6rem;
   }
   .hero-para {
-    width: 80%;
+    width: 85%;
     margin-top: 2%;
   }
   .hero-img-div {
     width: 100%;
     height: 50%;
-
     margin-bottom: 4%;
+  }
+}
+.plants-container {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.plants-tittle {
+  width: 100%;
+}
+.plants-header {
+  width: 100%;
+}
+.plants-head-tittle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Noto";
+}
+.plants-head-tittle span {
+  color: #e95a08;
+}
+.plants-details {
+  width: 44%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.plants-des {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.75rem;
+  font-family: "Inter";
+  text-align: center;
+}
+.cards-container {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card {
+  width: 100%;
+  height: auto;
+}
+.card-details {
+  margin-top: 5%;
+}
+.flower-name {
+  font-size: 1.1rem;
+  font-family: "Inter";
+  color: #111111;
+  font-weight: bold;
+  padding: 3%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+.price {
+  font-size: 1.2rem;
+  font-family: "Inter";
+  color: #111111;
+  font-weight: bold;
+  text-align: center;
+}
+.btn {
+  background-color: #e95a08;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 2%;
+  padding: 4%;
+  font-size: 0.75rem;
+  font-family: "Inter";
+}
+@media screen and (max-width: 576px) {
+  .plants-container {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  .plants-head-tittle {
+    font-size: 2rem;
+  }
+  .plants-details {
+    width: 60%;
+  }
+  .cards-container {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
   }
 }
