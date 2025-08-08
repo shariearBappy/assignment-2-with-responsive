@@ -274,14 +274,15 @@ body {
 }
 @media screen and (max-width: 576px) {
   .trust-container {
-    display: flex;
     flex-direction: column;
-    margin-top: 25%;
-    margin-bottom: 7%;
   }
   .trust-div {
     width: 95%;
     margin: 0 auto;
+  }
+  .trust-img {
+    width: 100%;
+    margin-top: 7%;
   }
   .trust-details {
     width: 95%;
@@ -293,6 +294,7 @@ body {
     font-size: 2rem;
   }
   .trust-list {
+    width: 100%;
     margin-top: 1%;
     margin-left: 2.5%;
   }
@@ -303,7 +305,7 @@ body {
     font-family: "Inter";
     padding: 3% 0;
   }
-  .trusted-badge {
+  .badge-img {
     display: none;
   }
 }
