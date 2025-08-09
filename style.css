@@ -229,10 +229,12 @@ body {
 }
 .trust-container {
   display: flex;
+
   margin-top: 20%;
   margin-bottom: 15%;
 }
 .trust-div {
+  position: relative;
   width: 60%;
 }
 .trust-details {
@@ -264,12 +266,13 @@ body {
 }
 .trusted-badge {
   position: absolute;
-  top: 241%;
-  left: 40%;
-  width: 15%;
+  top: -13%;
+  left: 72%;
+  width: 30%;
 }
 .badge-img {
   width: 100%;
+
   filter: drop-shadow(3px 6px 3px rgba(0, 0, 0, 0.5));
 }
 @media screen and (max-width: 576px) {
