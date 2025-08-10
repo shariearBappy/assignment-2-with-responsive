@@ -560,6 +560,10 @@ body {
   padding: 1%;
   border: none;
 }
+.email:focus {
+  outline: none;
+  box-shadow: 3px 2px 3px #e95a08;
+}
 
 .sub-btn {
   background-color: #e95a08;
