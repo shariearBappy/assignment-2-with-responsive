@@ -214,7 +214,7 @@ body {
     font-size: 2rem;
   }
   .plants-details {
-    width: 72%;
+    width: 80%;
   }
   .cards-container {
     display: grid;
@@ -324,11 +324,13 @@ body {
   color: #e95a08;
 }
 .deals-des {
+  width: 50%;
+  margin: auto;
   color: #8987a1;
   font-size: 0.75rem;
   font-family: "Inter";
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 .deals-container {
   display: grid;
@@ -455,6 +457,10 @@ body {
     display: block;
     width: 95%;
     margin: auto;
+  }
+  .deals-des {
+    width: 90%;
+    margin-left: 5%;
   }
   .bloom-plant {
     margin-bottom: 5%;
@@ -603,7 +609,7 @@ body {
   width: 23%;
 }
 .footer-logo {
-  margin-bottom: 6%;
+  margin-bottom: 7%;
 }
 .footer-des {
   font-size: 1rem;
@@ -623,4 +629,22 @@ body {
 .social-media-icons {
   width: 20%;
   justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-logo-div {
+    width: 70%;
+    margin: 5%;
+  }
+  .footer-links-container {
+    flex-direction: column;
+    margin: 2% 5%;
+  }
+  .social-media-icons {
+    width: 50%;
+    margin: 5%;
+  }
 }
